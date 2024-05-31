@@ -1,29 +1,111 @@
-<div class="container-fluid bg-dark">
-  <div class="row window ">
+<div
+  class="container-fluid shadow-lg"
+  style="background-color: rgb(201, 197, 197)"
+>
+  <div class="row window">
     <div class="left_window bg- me-3">
-      <div class="row mt-3" id="main_image">
-        <img
-          src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0"
-          alt=""
-        />
+      <div
+        class="card mt-5 rounded-4 position-relative"
+        style="width: 48rem; height: 25rem; top: -30px; left: "
+      >
+        <iframe
+          src=""
+          frameborder="0"
+          class="object-fit-cover h-100 p-1 rounded-4"
+          id="pdf"
+        ></iframe>
       </div>
-      <div class="row text-light " id="description">
-        <h1 >this is the description of the document</h1>
+      <!-- icons -->
+     <div class="row">
+      <!-- 1st column -->
+      <div class="col-5">
+        <div
+        class="btn-group btn-secondary"
+        role="group"
+        aria-label="Basic example"
+      >
+        <button type="button" class="btn border-1 border-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-hand-thumbs-up"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"
+            />
+          </svg>
+          1.2k
+        </button>
+        <button type="button" class="btn border-1 border-dark">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+            <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856s-.036.586-.113.856c-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a10 10 0 0 1-.443-.05 9.36 9.36 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a9 9 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581s-.027-.414-.075-.581c-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.2 2.2 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.9.9 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+          </svg>
+          1001
+        </button>
+      </div>
+      </div>
+      <!-- 2nd column -->
+      <div class="col-3">
+        <button type="button" class="btn  border border-dark "  >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+          </svg>
+          Comment</button>
+      </div>
+      <!-- 3rd column -->
+      <div class="col-4">
+        <button type="button" class="btn btn-dark mx-4" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+          </svg>
+          Subscribe</button>
+  
+          <button type="button" class="btn border border-dark ms-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+            </svg>
+          </button>
+      </div>
+     </div>
+
+      <!-- icons -->
+      <h5 id="document_header" class="text-white mt-3 fs-4"></h5>
+      <div class="container rounded-3 bg-dark p-3 " style="width: 770px;">
+        <h5 id="doc_desc" class="fs-6 text-white-50 d-block">
+          <p id="author"></p>
+        </h5>
+        <h5 id="doc_desc" class="fs-6 text-white-50 d-block">
+          <p id="descr"></p>
+        </h5>
+        <h5 id="doc_date" class="text-white-50 d-block"><p id="pd"></p></h5>
+      </div>
+      <!-- ----------------- -->
+      <div class="row text-light" id="description">
+        <h5 id="title"></h5>
+        <small id="author"></small>
       </div>
     </div>
-    <div class="right_window playlist bg-dark overflow-auto">
+    <div
+      class="right_window playlist overflow-auto"
+      style="background-color: rgb(201, 197, 197)"
+    >
       <!-- card 1 -->
-      <div class="card mb-3" style="max-width: 540px">
+      <div class="card my-3" style="max-width: 540px" (click)="card1('1')">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
+            <img
+              src="https://th.bing.com/th/id/OIP.z-FjovzAeLG_OTvUl0OUDQHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">HTML document details</h5>
-              <p class="card-text">
-                Details about the HTML
-              </p>
+              <p class="card-text">Details about the HTML</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >1090 likes. 344 comments</small
@@ -34,17 +116,19 @@
         </div>
       </div>
       <!-- card 2 -->
-      <div class="card mb-3" style="max-width: 540px">
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('2')">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
+            <img
+              src="https://th.bing.com/th/id/OIP.7iOEGSQgcUmuGDDOncv3hAAAAA?w=189&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">CSS document details</h5>
-              <p class="card-text">
-                Details about the CSS 
-              </p>
+              <p class="card-text">Details about the CSS</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >1090 likes. 344 comments</small
@@ -54,18 +138,20 @@
           </div>
         </div>
       </div>
-            <!-- card 3 -->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- card 3 -->
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('3')">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
+            <img
+              src="https://th.bing.com/th/id/OIP.2sB_mfFu8aZQwv8SnAgEyAHaEo?w=250&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">SCSS document details</h5>
-              <p class="card-text">
-                Details about the SCSS
-              </p>
+              <p class="card-text">Details about the SCSS</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >1090 likes. 344 comments</small
@@ -75,18 +161,20 @@
           </div>
         </div>
       </div>
-            <!-- card 4 -->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- card 4 -->
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('4')">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
+            <img
+              src="data:image/jpeg;base64,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"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Tailwind document </h5>
-              <p class="card-text">
-                Details about the Tailwind 
-              </p>
+              <h5 class="card-title">BOOTSTRAP document details</h5>
+              <p class="card-text">Details about the BOOTSTRAP</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >1090 likes. 344 comments</small
@@ -96,18 +184,43 @@
           </div>
         </div>
       </div>
-            <!-- card 5 -->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- card 5 -->
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('5')">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
+            <img
+              src="https://th.bing.com/th/id/OIP.GnPyPzANH21Y-QGgHVKMWQHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.5&pid="
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tailwind document</h5>
+              <p class="card-text">Details about the Tailwind</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >1090 likes. 344 comments</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 6 -->
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('6')">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th/id/OIP._Tf_ut9cHRc_alfQPj9gUAHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Java Script document</h5>
-              <p class="card-text">
-                Details about the JavaScript
-              </p>
+              <p class="card-text">Details about the JavaScript</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >1090 likes. 344 comments</small
@@ -117,112 +230,98 @@
           </div>
         </div>
       </div>
-<!-- card 6 -->
-<div class="card mb-3" style="max-width: 540px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">HTML document details</h5>
-        <p class="card-text">
-          Details about the HTML
-        </p>
-        <p class="card-text">
-          <small class="text-body-secondary"
-            >1090 likes. 344 comments</small
-          >
-        </p>
+      <!-- card 7 -->
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('7')">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th/id/OIP.6MQIvwOhg35g9d9x4GqwbgHaH5?w=144&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">TypeScript document details</h5>
+              <p class="card-text">Details about the TypeScript</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >1090 likes. 344 comments</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-<!-- card 7 -->
-<div class="card mb-3" style="max-width: 540px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">CSS document details</h5>
-        <p class="card-text">
-          Details about the CSS 
-        </p>
-        <p class="card-text">
-          <small class="text-body-secondary"
-            >1090 likes. 344 comments</small
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
       <!-- card 8 -->
-<div class="card mb-3" style="max-width: 540px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">SCSS document details</h5>
-        <p class="card-text">
-          Details about the SCSS
-        </p>
-        <p class="card-text">
-          <small class="text-body-secondary"
-            >1090 likes. 344 comments</small
-          >
-        </p>
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('8')">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th/id/OIP.OEsew1xTAbTvqJ8ln2aJrgHaH3?w=166&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Angular document details</h5>
+              <p class="card-text">Details about the Angular</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >1090 likes. 344 comments</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
       <!-- card 9 -->
-<div class="card mb-3" style="max-width: 540px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Tailwind document </h5>
-        <p class="card-text">
-          Details about the Tailwind 
-        </p>
-        <p class="card-text">
-          <small class="text-body-secondary"
-            >1090 likes. 344 comments</small
-          >
-        </p>
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('9')">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th?id=OIP.2jOYMim7RdeyGWJXu4dU2wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">.NET document</h5>
+              <p class="card-text">Details about the .NET</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >1090 likes. 344 comments</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
       <!-- card 10 -->
-<div class="card mb-3" style="max-width: 540px">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://th.bing.com/th/id/R.f27f27b990033eaf6892557462541bca?rik=sD2kQcIbirGVdA&riu=http%3a%2f%2fcypruscitizenship.info%2fwp-content%2fuploads%2f2016%2f09%2fdocuments.jpg&ehk=qo%2bEteygHTJscBsVDgndImKQe%2bF9qjxlU25FFJrjaRc%3d&risl=&pid=ImgRaw&r=0" class="tumbnail img-fluid rounded-start" alt="..." />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Java Script document</h5>
-        <p class="card-text">
-          Details about the JavaScript
-        </p>
-        <p class="card-text">
-          <small class="text-body-secondary"
-            >1090 likes. 344 comments</small
-          >
-        </p>
+      <div class="card mb-3" style="max-width: 540px" (click)="card1('10')">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://th.bing.com/th?id=OIP.j48EdWNOF947QCIV1zJn8wHaH5&w=242&h=258&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+              class="tumbnail img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Java document</h5>
+              <p class="card-text">Details about the JavaScript</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >1090 likes. 344 comments</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
   </div>
 </div>
