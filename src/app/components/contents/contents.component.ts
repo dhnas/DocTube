@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './contents.component.html',
   styleUrl: './contents.component.scss'
 })
+
+
+
+
 export class ContentsComponent {
 
 }
