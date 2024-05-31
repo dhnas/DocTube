@@ -1,0 +1,22 @@
+.playlist{
+    height: 100vh;
+}
+
+.window{
+    height:60%;
+}
+.left_window{
+    width: 63%;
+}
+.right_window{
+    width:35%;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+}
+.tumbnail{
+    height: 100%;
+    width: 100%;
+    
+}
